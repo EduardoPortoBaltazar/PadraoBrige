@@ -11,4 +11,19 @@ object Form1: TForm1
   Font.Name = 'Segoe UI'
   Font.Style = []
   TextHeight = 15
+  object SpeedButton1: TSpeedButton
+    Left = 312
+    Top = 232
+    Width = 23
+    Height = 22
+  end
+  object BitBtn1: TBitBtn
+    Left = 280
+    Top = 232
+    Width = 75
+    Height = 25
+    Caption = 'BitBtn1'
+    TabOrder = 0
+    OnClick = BitBtn1Click
+  end
 end

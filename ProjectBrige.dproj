@@ -104,6 +104,8 @@
         </DCCReference>
         <DCCReference Include="Controller\Brige.Model.Interfaces.pas"/>
         <DCCReference Include="Controller\Brige.Model.Venda.pas"/>
+        <DCCReference Include="Controller\Brige.Brige.Model.SPED.C100.pas"/>
+        <DCCReference Include="Controller\Brige.Model.SPED.C180.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

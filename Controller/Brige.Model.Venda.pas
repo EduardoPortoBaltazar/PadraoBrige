@@ -31,11 +31,22 @@ begin
   LVenda.Itens := 2;
   LVenda.Total := 20;
   FLista.Add(LVenda);
+
+  LVenda.COO := 10;
+  LVenda.Itens := 7;
+  LVenda.Total := 80;
+  FLista.Add(LVenda);
+
+   LVenda.COO := 66;
+  LVenda.Itens := 2;
+  LVenda.Total := 20;
+  FLista.Add(LVenda);
 end;
 
 constructor TModelVenda.Create;
 begin
   FLista := TList<TVenda>.Create;
+  AddItens;
 end;
 
 destructor TModelVenda.Destroy;
@@ -50,6 +61,7 @@ var
   I: Integer;
 begin
   Result := Self;
+
   for I := 0 to Pred(FLista.Count) do
     Value.GerarRegistros(FLista.Items[i]) ;
 
