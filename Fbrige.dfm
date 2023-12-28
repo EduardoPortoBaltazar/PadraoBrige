@@ -18,12 +18,31 @@ object Form1: TForm1
     Height = 22
   end
   object BitBtn1: TBitBtn
-    Left = 280
-    Top = 232
+    Left = 32
+    Top = 32
     Width = 75
     Height = 25
     Caption = 'BitBtn1'
     TabOrder = 0
     OnClick = BitBtn1Click
+  end
+  object BitBtn2: TBitBtn
+    Left = 32
+    Top = 96
+    Width = 177
+    Height = 25
+    Caption = 'Validar Compra'
+    TabOrder = 1
+    OnClick = BitBtn2Click
+  end
+  object Memo1: TMemo
+    Left = 272
+    Top = 0
+    Width = 356
+    Height = 442
+    Align = alRight
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 2
   end
 end

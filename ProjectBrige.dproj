@@ -106,6 +106,12 @@
         <DCCReference Include="Controller\Brige.Model.Venda.pas"/>
         <DCCReference Include="Controller\Brige.Brige.Model.SPED.C100.pas"/>
         <DCCReference Include="Controller\Brige.Model.SPED.C180.pas"/>
+        <DCCReference Include="Compra.Model.Interfaces.pas"/>
+        <DCCReference Include="Model\Compra.Model.Produto.pas"/>
+        <DCCReference Include="Model\Compra.Model.Nota.pas"/>
+        <DCCReference Include="Controller\Compra.Model.pas"/>
+        <DCCReference Include="Controller\Compra.Model.Validacao.Nota.pas"/>
+        <DCCReference Include="Model\Compra.Modelo.Types.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
