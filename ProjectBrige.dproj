@@ -112,6 +112,7 @@
         <DCCReference Include="Controller\Compra.Model.pas"/>
         <DCCReference Include="Controller\Compra.Model.Validacao.Nota.pas"/>
         <DCCReference Include="Model\Compra.Modelo.Types.pas"/>
+        <DCCReference Include="Controller\Compra.Model.CalculoCusto.Nota.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

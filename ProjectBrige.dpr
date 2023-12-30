@@ -12,7 +12,8 @@ uses
   Compra.Model.Nota in 'Model\Compra.Model.Nota.pas',
   Compra.Model in 'Controller\Compra.Model.pas',
   Compra.Model.Validacao.Nota in 'Controller\Compra.Model.Validacao.Nota.pas',
-  Compra.Modelo.Types in 'Model\Compra.Modelo.Types.pas';
+  Compra.Modelo.Types in 'Model\Compra.Modelo.Types.pas',
+  Compra.Model.CalculoCusto.Nota in 'Controller\Compra.Model.CalculoCusto.Nota.pas';
 
 {$R *.res}
 
